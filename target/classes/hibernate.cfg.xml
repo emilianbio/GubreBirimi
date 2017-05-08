@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC
+"-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+"http://http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+
+	<session-factory>
+		<mapping class="models.Personel" />
+		<mapping class="models.Isyeri" />
+		<mapping class="models.Tutanak" />
+		<mapping class="models.NumuneAlmaTutanagi" />
+		<mapping class="models.GubreUreticisi" />
+		<mapping class="models.Gubre" />
+		<mapping class="models.Dagitici" />
+		<mapping class="models.Il" />
+		<mapping class="models.Ilce" />
+		<mapping class="models.Mahalle" />
+	</session-factory>
+
+</hibernate-configuration>
